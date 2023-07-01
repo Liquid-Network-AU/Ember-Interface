@@ -1,0 +1,1 @@
+This repository contains a Next.JS web application that is used by the patrons of the Liquid Network to interact with our human-computer interfaces
