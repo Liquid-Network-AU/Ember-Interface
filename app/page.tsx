@@ -19,7 +19,7 @@ const resources = [
     title: 'Supabase Next.js App Router Example',
     subtitle:
       'Want to see a code example containing some common patterns with Next.js and Supabase? Check out this repo!',
-    url: 'https://github.com/supabase/supabase/tree/master/examples/auth/nextjs',
+    url: '/repos',
     icon: 'M10 20L14 4M18 8L22 12L18 16M6 16L2 12L6 8',
   },
   {

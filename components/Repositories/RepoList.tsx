@@ -1,6 +1,9 @@
+"use client"
+
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react';
+import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 
 interface Repository {
   id: number;
@@ -10,7 +13,7 @@ interface Repository {
 
 const Repositories = () => {
   const [repositories, setRepositories] = useState<Repository[]>([]);
-  const supabase = useSupabaseClient();
+  const supabase = createClientComponentClient();
   const session = useSession();
 
   useEffect(() => {
